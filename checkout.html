@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Checkout – NOWEBSITENAMEYET</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="nav-brand" href="index.html">🛒 NOWEBSITENAMEYET</a>
+  <div class="nav-links">
+    <a href="index.html">Back to Browse</a>
+  </div>
+</nav>
+
+<div class="checkout-container">
+
+  <div class="checkout-left">
+    <h2>Payment Method</h2>
+    <p class="checkout-note">You're only paying for shipping — the item is free!</p>
+
+    <div class="payment-tabs">
+      <button class="pay-tab active">E-Wallet</button>
+      <button class="pay-tab">InstaPay</button>
+      <button class="pay-tab">Card</button>
+    </div>
+
+    <div class="pay-panel active">
+      <div class="ewallet-options">
+        <label class="ewallet-opt">
+          <input type="radio" name="ewallet" value="gcash" checked/>
+          <div class="ewallet-card">
+            <img src="/images/gcash_logo.jpg" class="ewallet-logo" alt="GCash" style="object-fit: cover;">
+            <div>
+              <strong>GCash</strong>
+              <p>Instant transfer via GCash wallet</p>
+            </div>
+          </div>
+        </label>
+        <label class="ewallet-opt">
+          <input type="radio" name="ewallet" value="maya"/>
+          <div class="ewallet-card">
+            <img src="/images/maya_logo.jpg" class="ewallet-logo" alt="Maya" style="object-fit: cover;">
+            <div>
+              <strong>Maya</strong>
+              <p>Pay via Maya (formerly PayMaya)</p>
+            </div>
+          </div>
+        </label>
+      </div>
+      <input class="text-input" type="tel" placeholder="Mobile Number (e.g. 09xxxxxxxxx)"/>
+      <p class="hint">You will receive a prompt on your GCash / Maya app to confirm payment.</p>
+    </div>
+  </div>
+
+  <div class="checkout-right">
+    <h2>Order Summary</h2>
+
+    <div class="checkout-item-row">
+      <div class="checkout-item-img">👟</div>
+      <div class="checkout-item-info">
+        <strong>Nike Air Max 270 – Size 9</strong>
+        <p>Seller: Carlo R. · Davao City</p>
+        <p>Condition: Used – Good</p>
+      </div>
+    </div>
+
+    <hr/>
+
+    <div class="checkout-delivery">
+      <h3>Delivery Details</h3>
+      <p>📦 J&T Express · Est. 3–5 days</p>
+      <p>📍 Juan Dela Cruz, Brgy. Bagong Buhay, Santa Rosa, Laguna, 4026</p>
+    </div>
+
+    <hr/>
+
+    <div class="order-summary">
+      <div class="summary-row"><span>Item Price</span><span class="free-tag">FREE</span></div>
+      <div class="summary-row"><span>Shipping Fee</span><span>₱160</span></div>
+      <div class="summary-row"><span>Service Fee</span><span>₱0</span></div>
+      <div class="summary-row total"><span>Total</span><span>₱160</span></div>
+    </div>
+
+    <div class="secure-note">🔒 Payment is held until you confirm receipt of the item.</div>
+
+    <button class="btn-primary btn-block pay-btn">Pay ₱160 Shipping</button>
+    <a href="item.html" class="btn-outline btn-block" style="margin-top:10px;text-align:center;display:block;">← Back</a>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-brand">🛒 NOWEBSITENAMEYET</div>
+  <p>© 2026 NOWEBSITENAMEYET. Philippines' Free Secondhand Marketplace.</p>
+</footer>
+
+</body>
+</html>
