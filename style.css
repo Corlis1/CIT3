@@ -310,7 +310,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 18px 0; }
   letter-spacing: -0.5px;
 }
 .jnt { background: #e63946; }
-.lbc { background: #1d3557; }
+.lbc { background: #e63946; }
 .grab { background: #00b14f; }
 .ship-details { flex: 1; }
 .ship-details strong { display: block; font-size: 0.88rem; }
